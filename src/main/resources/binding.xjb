@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<jxb:bindings version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+              xmlns:jxb="http://java.sun.com/xml/ns/jaxb"              
+              xmlns:xjc="http://java.sun.com/xml/ns/jaxb/xjc">
+   
+    <jxb:bindings schemaLocation="DGOJ_Monitorizacion_2.13.xsd" node="/xs:schema">
+    <!--<jxb:globalBindings localScoping="toplevel">
+            <xjc:superClass name="com.pat.demos.xjc.MyAbstractBaseType"/>         
+            <jxb:serializable/>
+        </jxb:globalBindings>-->
+                                     
+        <jxb:schemaBindings>
+            <jxb:package name="com.thingtrack.training.vertica.sgij.domain"></jxb:package>  
+        </jxb:schemaBindings>                     
+    </jxb:bindings>  
+</jxb:bindings>
